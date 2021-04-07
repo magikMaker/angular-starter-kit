@@ -98,7 +98,7 @@ the [Angular CLI Overview and Command Reference][10] page.
 [8]: https://github.com/ngneat/spectator
 [9]: https://angular.io/api/core/testing/TestBed
 [10]: https://angular.io/cli
-[11]: https://tailwindcss.com/
+[11]: https://github.com/okonet/lint-staged
 [12]: https://prettier.io/
-[13]: https://github.com/okonet/lint-staged
+[13]: https://tailwindcss.com/
 
