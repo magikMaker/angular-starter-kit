@@ -7,8 +7,9 @@ This Angular Starter Kit contains the following libraries
 * [Spectator][8] instead of [TestBed][9]
 
 Additionally, the following libs have been added:
-* [TailwindCSS][11]
-* [lint-staged][12]
+* [lint-staged][11]
+* [Prettier][12]  
+* [TailwindCSS][13]
 
 ## Development server
 Run `yarn dev` for a dev server. Navigate to `http://localhost:4200/`. 
@@ -98,4 +99,6 @@ the [Angular CLI Overview and Command Reference][10] page.
 [9]: https://angular.io/api/core/testing/TestBed
 [10]: https://angular.io/cli
 [11]: https://tailwindcss.com/
-[12]: https://github.com/okonet/lint-staged
+[12]: https://prettier.io/
+[13]: https://github.com/okonet/lint-staged
+
