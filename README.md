@@ -6,6 +6,10 @@ This Angular Starter Kit contains the following libraries
 * [Jest][5] instead of [Karma][6] / [Jasmine][7]
 * [Spectator][8] instead of [TestBed][9]
 
+Additionally, the following libs have been added:
+* [TailwindCSS][11]
+* [lint-staged][12]
+
 ## Development server
 Run `yarn dev` for a dev server. Navigate to `http://localhost:4200/`. 
 The app will automatically reload if you change any of the source files.
@@ -93,3 +97,5 @@ the [Angular CLI Overview and Command Reference][10] page.
 [8]: https://github.com/ngneat/spectator
 [9]: https://angular.io/api/core/testing/TestBed
 [10]: https://angular.io/cli
+[11]: https://tailwindcss.com/
+[12]: https://github.com/okonet/lint-staged
