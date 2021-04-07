@@ -1,0 +1,86 @@
+{
+  "name": "angular-starter-kit",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "ng build",
+    "build:production": "ng build --prod",
+    "dev": "ng serve",
+    "e2e": "cypress open",
+    "g": "ng generate",
+    "generate": "ng generate",
+    "lint": "ng lint --fix",
+    "ng": "ng",
+    "prettier": "prettier --config ./.prettierrc --write \"src/{app,environments}/**/*{.ts,.html,.scss}\"",
+    "start": "ng serve",
+    "tailwind": "tailwindcss",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged --relative"
+    }
+  },
+  "lint-staged": {
+    "*.{js,ts}": [
+      "eslint --fix"
+    ]
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "~11.2.8",
+    "@angular/common": "~11.2.8",
+    "@angular/compiler": "~11.2.8",
+    "@angular/core": "~11.2.8",
+    "@angular/forms": "~11.2.8",
+    "@angular/platform-browser": "~11.2.8",
+    "@angular/platform-browser-dynamic": "~11.2.8",
+    "@angular/router": "~11.2.8",
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.9",
+    "rxjs": "~6.6.0",
+    "tslib": "^2.0.0",
+    "zone.js": "~0.11.3"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~0.1102.7",
+    "@angular-eslint/builder": "2.0.2",
+    "@angular-eslint/eslint-plugin": "2.0.2",
+    "@angular-eslint/eslint-plugin-template": "2.0.2",
+    "@angular-eslint/schematics": "2.0.2",
+    "@angular-eslint/template-parser": "2.0.2",
+    "@angular/cli": "~11.2.7",
+    "@angular/compiler-cli": "~11.2.8",
+    "@ngneat/spectator": "^7.1.0",
+    "@types/jest": "^26.0.22",
+    "@types/node": "^12.11.1",
+    "@typescript-eslint/eslint-plugin": "4.16.1",
+    "@typescript-eslint/parser": "4.16.1",
+    "codelyzer": "^6.0.0",
+    "cypress": "^7.0.1",
+    "eslint": "^7.23.0",
+    "eslint-config-airbnb-typescript": "^12.3.1",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.3.4",
+    "eslint-plugin-jsdoc": "30.7.6",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prefer-arrow": "1.2.2",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.23.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "husky": "^6.0.0",
+    "jasmine-core": "~3.6.0",
+    "jasmine-spec-reporter": "~5.0.0",
+    "jest": "^26.6.3",
+    "jest-preset-angular": "^8.4.0",
+    "karma-coverage": "~2.0.3",
+    "lint-staged": "^10.5.4",
+    "prettier": "^2.2.1",
+    "protractor": "~7.0.0",
+    "tailwindcss": "^2.1.1",
+    "ts-node": "~8.3.0",
+    "tslint": "~6.1.0",
+    "typescript": "~4.1.5"
+  }
+}
