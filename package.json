@@ -5,7 +5,7 @@
     "build": "ng build",
     "build:production": "ng build --prod",
     "dev": "ng serve",
-    "e2e": "cypress open",
+    "e2e": "yarn test:e2e",
     "g": "ng generate",
     "generate": "ng generate",
     "lint": "ng lint --fix",
@@ -14,7 +14,8 @@
     "start": "ng serve",
     "tailwind": "tailwindcss",
     "test": "jest",
-    "test:coverage": "jest --coverage"
+    "test:coverage": "jest --coverage",
+    "test:e2e": "cypress open"
   },
   "husky": {
     "hooks": {
