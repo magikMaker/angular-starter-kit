@@ -1,4 +1,5 @@
 module.exports = {
+  'coverageReporters': ['json', 'lcov', 'text','clover', 'html'],
   'preset': 'jest-preset-angular',
   'setupFilesAfterEnv': [
     '<rootDir>/jest-setup.ts'
